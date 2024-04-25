@@ -1,0 +1,10 @@
+serverAddr = "34.201.128.31"
+serverPort = 7000
+
+[[proxies]]
+name = "test-tcp"
+type = "tcp"
+localIP = "192.168.46.14"
+localPort = 554
+remotePort = 6000
+
